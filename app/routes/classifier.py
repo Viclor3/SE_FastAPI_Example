@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from transformers import pipeline
-from models.Item import Item
+from app.models.Item import Item
 
 classifier = pipeline("sentiment-analysis")
 
